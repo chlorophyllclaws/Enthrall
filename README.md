@@ -1,6 +1,4 @@
-![KoboldKare capsule](capsule_lg.png)
 
-This is a fork repository for KoboldKare, an adult game found on itch.io and Steam.
 Modifications will not be synchronized often; disregard existence of this fork.
 
 ## Licensing
