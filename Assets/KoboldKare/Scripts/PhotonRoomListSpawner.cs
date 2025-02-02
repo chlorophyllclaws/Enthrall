@@ -1,17 +1,24 @@
-﻿using Photon.Pun;
+﻿using System;
+using Photon.Pun;
 using Photon.Realtime;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
-using System;
 using System.Collections;
-using System.Linq;
 
 public class PhotonRoomListSpawner : MonoBehaviourPunCallbacks, ILobbyCallbacks, IInRoomCallbacks {
     public GameObject roomPrefab;
     public GameObject hideOnRoomsFound;
     private List<GameObject> roomPrefabs = new List<GameObject>();
+    
+    private static string[] blacklist;
+
+    [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
+    private static void Init() {
+        blacklist = null;
+    }
+    
     public override void OnConnectedToMaster(){
         base.OnConnectedToMaster();
         Debug.Log("PhotonRoomListSpawner :: Connected to master");
@@ -48,12 +55,18 @@ public class PhotonRoomListSpawner : MonoBehaviourPunCallbacks, ILobbyCallbacks,
         });
     }
 
+    public static bool GetBlackListed(string name, out string filtered) {
+        blacklist ??= WordFilter.NaughtyList.GetNaughtyList(GameManager.GetBlacklist());
+        var blacklisted = WordFilter.WordFilter.GetBlackListed(name, blacklist, out filtered, true);
+        return blacklisted;
+    }
+
     public override void OnRoomListUpdate(List<RoomInfo> roomList) {
         base.OnRoomListUpdate(roomList); // Perform default expected behavior
-        //Debug.Log("[PhotonRoomListSpawner] :: Got room list update from master server");
-        //ClearRoomList();
-        //Build UI from current room list
         foreach (RoomInfo info in roomList) {
+            if (GetBlackListed(info.Name, out _)) {
+                continue;
+            }
             bool skip = false;
             for (int i = 0; i < roomPrefabs.Count; i++) {
                 if (roomPrefabs[i].transform.Find("Name").GetComponent<TextMeshProUGUI>().text == info.Name) {
