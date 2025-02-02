@@ -21,21 +21,22 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: TaperedDildoNoDeform
-  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
-  m_ValidKeywords:
-  - _METALLICSPECGLOSSMAP
-  - _NORMALMAP
+  m_Shader: {fileID: 4800000, guid: bc0a95306787ee14c8cba6b6697de1e1, type: 3}
+  m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
-  stringTagMap:
-    RenderType: Opaque
+  stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _BaseColorMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BaseMap:
         m_Texture: {fileID: 2800000, guid: 25159fabacb97444aa005a29bcd131a4, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -53,6 +54,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMaskMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -76,6 +81,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: 4ec4b7f4e3d05b54f9987bf565bd1410, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -85,6 +94,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ThicknessMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -110,12 +123,14 @@ Material:
     - _AlphaCutoff: 0.5
     - _Blend: 0
     - _BlendshapeMultiplier: 1.3000001
+    - _BoobLerp: 0
     - _BulgePercentage: 0.1
     - _BumpScale: 1
     - _CLIP_DICK: 0
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
     - _ClipDick: 0
+    - _CompressibleDistance: 0
     - _Cull: 2
     - _CumActive: 0
     - _CumAmount: 0
@@ -124,7 +139,10 @@ Material:
     - _DEFORM_BALLS: 1
     - _DeformBalls: 0
     - _DetailAlbedoMapScale: 1
+    - _DetailAlpha: 1
     - _DetailNormalMapScale: 1
+    - _DetailNormalScale: 1
+    - _DetailTiling: 3
     - _DickLength: 0.7296498
     - _DickWorldLength: 1
     - _DistanceToHole: 0
@@ -134,6 +152,7 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
+    - _Head: 1
     - _HoleProgress: 128.7
     - _INVISIBLE_WHEN_INSIDE: 1
     - _InvisibleWhenInside: 0
@@ -144,6 +163,8 @@ Material:
     - _OcclusionStrength: 1
     - _OrifaceLength: 1
     - _OrificeLength: 1
+    - _PENETRATION_DEFORMATION: 0
+    - _PENETRATION_DEFORMATION_DETAIL: 0
     - _Parallax: 0.005
     - _PenetrationDepth: -1
     - _PenetratorBlendshapeMultiplier: 1.3000001
@@ -166,6 +187,13 @@ Material:
     - _SrcBlend: 1
     - _StartClip: 0
     - _Surface: 0
+    - _TransAmbient: 0.1
+    - _TransDirect: 0.9
+    - _TransNormal: 0.5
+    - _TransScattering: 2
+    - _TransShadow: 0.5
+    - _TransStrength: 1
+    - _TransmissionShadow: 0.5
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
@@ -201,4 +229,5 @@ Material:
     - _PenetratorRight: {r: 0.99960357, g: 0.028078865, b: -0.0020620252, a: 0}
     - _PenetratorUp: {r: 0.028152265, g: -0.9977602, b: 0.060680225, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _SubsurfaceColor: {r: 0.8396226, g: 0.6059541, b: 0.6059541, a: 1}
   m_BuildTextureStacks: []

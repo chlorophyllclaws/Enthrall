@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Plantera's Dong Collection
+  m_EditorClassIdentifier: 
+  m_GroupName: Plantera's Dong Collection
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 1a4354ce4697ee8488e5917f04f3e051
+  m_SerializeEntries:
+  - m_GUID: 5ed397905ec6dd046ad01f25ae19e5ca
+    m_Address: Farm
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 17abd6aef54ae944fb15ea13be26cecb
+    m_Address: New PlayableMap
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PlayableMap
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: bae434cba05d81d4b9cb5c181a2fbf2c, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: b71a34a421ab5c640ab6882924f3a35d, type: 2}
+    - {fileID: 11400000, guid: 89453025c0912c143b32f39021ca2d0f, type: 2}

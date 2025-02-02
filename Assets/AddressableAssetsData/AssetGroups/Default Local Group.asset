@@ -22,6 +22,156 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 68b54be3978fe4e4cbdcdbbb1a574f55
+    m_Address: Assets/KoboldKare/Prefabs/CumMilkStation.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 31321ba15b8f8eb4c954353edc038b1d
+    m_Address: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e4cafeb112a805149818acc7a3b6a1c2
+    m_Address: Assets/Enthrall/FOLDER/GUI/Icons/ico_smeggs.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0f7454ac288782e42b14c43444f225e7
+    m_Address: Assets/Enthrall/FOLDER/GUI/Icons/ico_foreshortenedArrows.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ccf4ce2ed6387f488c58245b5654723
+    m_Address: Assets/Enthrall/FOLDER/GUI/Icons/ico_droplet.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0fa6c9778d2661d43a165cfa461fe9eb
+    m_Address: Assets/Enthrall/FOLDER/GUI/Icons/ico_disconnect.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7165fa7e34a8c2e40af5022d09e32556
+    m_Address: Assets/Enthrall/FOLDER/GUI/Icons/ico_erection.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 589b148d62ff1024386880d321f2d2bd
+    m_Address: Assets/Enthrall/FOLDER/GUI/Icons/ico_bag.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cae55e5e177dd604c983b0f3253451d2
+    m_Address: Assets/Enthrall/FOLDER/Models/Materials/Suzuki.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c71444fc602e9704d95eb510feba3d15
+    m_Address: Assets/Enthrall/FOLDER/Models/Materials/Textures/fish_genericNormal.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f3f1cdfe0d107784ebf137b66a1c226c
+    m_Address: Assets/Enthrall/FOLDER/Models/Materials/Textures/piranha_col.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0ae3d53a6ce014f4080abbc02c045549
+    m_Address: Assets/Enthrall/FOLDER/Models/Materials/Textures/sandstone_noise.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6718f6c6a0fc89641a8cfbe77510c8ab
+    m_Address: Assets/Enthrall/FOLDER/Models/Materials/Textures/sandstone_noise2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6b3b188e02960154e811e62735384051
+    m_Address: Assets/Enthrall/FOLDER/Models/Materials/Textures/suzuki_col.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 57523bd0f08a194499295ee15ebd255b
+    m_Address: Assets/Enthrall/FOLDER/Technical/Scriptables/Databases/TaurDatabase.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 110ad2f9cec23064a87469ea0e12a112
+    m_Address: Assets/Enthrall/FOLDER/Technical/Scriptables/Databases/DryderDatabase.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e48ca65554916614cac068f23daa10b3
+    m_Address: Assets/Enthrall/FOLDER/Technical/Scriptables/Databases/HumanoidDatabase.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a4a918b9d59fb264a82ee99674155a4b
+    m_Address: Assets/Enthrall/FOLDER/Models/Materials/sandstone.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5077c931782aa364aa361939e72098c2
+    m_Address: Assets/Enthrall/FOLDER/GUI/Icons/ico_lightning.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2fd2162350356464ba582645fab25479
+    m_Address: Assets/Enthrall/FOLDER/GUI/Icons/ico_exit.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5ace536fb7a8c9b44997c03ff1b76113
+    m_Address: Assets/Enthrall/FOLDER/Models/Materials/IceChunk.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d6931dd0f60d93f4abc11b8e17967977
+    m_Address: Assets/Enthrall/FOLDER/Models/Materials/Maps/Terrain.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 53d651ae51730b743ad9f1dc0e0765ff
+    m_Address: Assets/KoboldKare/Prefabs/KoboldDickEquine - Copia.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 696fbc5700c4a634ca00fd919c999b18
+    m_Address: Assets/Enthrall/FOLDER/Models/Mesh/Plants/Plantacle/Plantacle_Tentacle.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b3644a74db875b049a0df86e0ae3d25d
+    m_Address: Assets/KoboldKare/ScriptableObjects/Reagents/Jelly.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e9224040200e85c47a29717f8f8d219b
+    m_Address: Assets/KoboldKare/ScriptableObjects/Reagents/Reactions/JellyReaction.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fff9949904f1b6a42a7ff8d5cfe55b43
+    m_Address: Assets/KoboldKare/Materials/MapMaterials/ceramic 1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6e847b6b2e5340b4aabb55ea29bda5cd
+    m_Address: Assets/Enthrall/FOLDER/Models/Materials/Dicks/Harbinger/Harbinger_Kobold.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0c72d0d30bb5fbe4597459ca5f7997db
+    m_Address: Assets/Enthrall/FOLDER/Models/Materials/Dicks/Harbinger/Harbinger.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7259f5c2afdfb7b4cb6663cb003f23d1
+    m_Address: Assets/chlorophyllclaws/Minos/MinosDick.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: bae434cba05d81d4b9cb5c181a2fbf2c, type: 2}
   m_SchemaSet:

@@ -195,7 +195,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2bbd81b0f2a1509408acc7544391263a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0fa6c9778d2661d43a165cfa461fe9eb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1151,5 +1151,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   icon: {fileID: 9210849180488055970}
   description: {fileID: 5695620262478583372}
+  title: {fileID: 0}
   cancel: {fileID: 0}
   okay: {fileID: 8373607466962882187}

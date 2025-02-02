@@ -33,7 +33,7 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Gib",
+                    "name": "GetRekt",
                     "type": "Button",
                     "id": "499021cf-bcc5-4511-a370-0732194f6355",
                     "expectedControlType": "",
@@ -383,20 +383,42 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Gib",
+                    "action": "GetRekt",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "",
-                    "id": "0bbe41bd-6a3e-4705-a141-c715605a5bd5",
-                    "path": "",
+                    "name": "One Modifier",
+                    "id": "a165d6bd-447b-4fd5-b8c8-b6f3dda0b3f0",
+                    "path": "OneModifier",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Gib",
-                    "isComposite": false,
+                    "action": "GetRekt",
+                    "isComposite": true,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "5f8528d6-10b8-4555-baf9-8f36e98abaf8",
+                    "path": "<Gamepad>/select",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "GetRekt",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "37926245-980e-4319-95e1-08631e34a656",
+                    "path": "<Gamepad>/start",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "GetRekt",
+                    "isComposite": false,
+                    "isPartOfComposite": true
                 },
                 {
                     "name": "",

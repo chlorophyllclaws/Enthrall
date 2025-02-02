@@ -23,6 +23,8 @@ public static class KoboldGenesBitBufferExtension {
         ushort bellySizeQ = HalfPrecision.Quantize(genes.bellySize);
         ushort metabolizeCapacitySizeQ = HalfPrecision.Quantize(genes.metabolizeCapacitySize);
         ushort dickThicknessQ = HalfPrecision.Quantize(genes.dickThickness);
+		//Extra blendshapes
+		//ushort muscleSizeQ = HalfPrecision.Quantize(genes.muscleSize);
         buffer.AddUShort(maxEnergyQ);
         buffer.AddUShort(baseSizeQ);
         buffer.AddUShort(fatSizeQ);
@@ -32,12 +34,17 @@ public static class KoboldGenesBitBufferExtension {
         buffer.AddUShort(bellySizeQ);
         buffer.AddUShort(metabolizeCapacitySizeQ);
         buffer.AddUShort(dickThicknessQ);
+		//Extra blendshapes
+		//buffer.AddUShort(muscleSizeQ);
         buffer.AddByte(genes.hue);
         buffer.AddByte(genes.brightness);
         buffer.AddByte(genes.saturation);
         buffer.AddByte(genes.dickEquip);
         buffer.AddByte(genes.grabCount);
         buffer.AddByte(genes.species);
+		//rig type
+		//buffer.AddByte(genes.rigType);
+		//buffer.AddByte
     }
     public static KoboldGenes ReadKoboldGenes(this BitBuffer buffer) {
         if (!buffer.ReadBool()) {
@@ -53,12 +60,14 @@ public static class KoboldGenesBitBufferExtension {
             bellySize = HalfPrecision.Dequantize(buffer.ReadUShort()),
             metabolizeCapacitySize = HalfPrecision.Dequantize(buffer.ReadUShort()),
             dickThickness = HalfPrecision.Dequantize(buffer.ReadUShort()),
+			//muscleSize = HalfPrecision.Dequantize(buffer.ReadUShort()),
             hue = buffer.ReadByte(),
             brightness = buffer.ReadByte(),
             saturation = buffer.ReadByte(),
             dickEquip = buffer.ReadByte(),
             grabCount = buffer.ReadByte(),
             species = buffer.ReadByte()
+			//rigType = buffer.ReadByte()
         };
     }
 }
@@ -125,6 +134,7 @@ public class KoboldGenes {
             dickThickness = dickThickness ?? this.dickThickness,
             grabCount = grabCount ?? this.grabCount,
             species = species ?? this.species
+			//rigType = rigType ?? this.rigType
         };
     }
 
@@ -303,6 +313,7 @@ public class KoboldGenes {
         rootNode["grabCount"] = (int)grabCount;
         rootNode["dickThickness"] = dickThickness;
         rootNode["species"] = GetPlayerName(species);
+		//rootNode["rigType"] = rigType;
         node[key] = rootNode;
     }
 

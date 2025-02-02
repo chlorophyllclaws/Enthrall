@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: MinosTest
+  m_EditorClassIdentifier: 
+  m_GroupName: MinosTest
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 3fafbaa44a6f455498141620fd31801b
+  m_SerializeEntries:
+  - m_GUID: e2910ae170b8e274794b296578ec9cf4
+    m_Address: minos_dick
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - defaultMaterials
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 12b8f8a442b739b4f8a4b696ac75e274
+    m_Address: minos_dick
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8982554cec20e8747bca2b89698710a5
+    m_Address: MinosDick
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Penis
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0996a6134f372e84fa43b3f8dddbabf0
+    m_Address: minosdick_kobold
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - defaultTextures
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2768b8139aa18a1429817e72b07d9ae1
+    m_Address: minosdick_normal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - defaultTextures
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: bae434cba05d81d4b9cb5c181a2fbf2c, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: ec0324c3c24cb174da847ec1ce05b969, type: 2}
+    - {fileID: 11400000, guid: 973e701782808b445a985e0ca6b6aef9, type: 2}

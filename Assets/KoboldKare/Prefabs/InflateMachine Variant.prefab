@@ -116,16 +116,16 @@ MonoBehaviour:
     - {x: 0, y: 2.7370106e-11, z: 0, w: 1.0000181}
     - {x: 0, y: 3.9648285e-11, z: 0, w: 1.0000262}
     computedTargetPositions:
-    - {x: -178.96414, y: 18.676258, z: 285.45224}
-    - {x: -178.73132, y: 17.977158, z: 285.45227}
-    - {x: -179.09572, y: 18.900167, z: 285.6229}
-    - {x: -179.07666, y: 18.921906, z: 285.29526}
-    - {x: -179.1729, y: 17.584871, z: 286.00485}
-    - {x: -179.1914, y: 17.60236, z: 284.88663}
-    - {x: -178.72644, y: 18.743803, z: 285.21732}
-    - {x: -178.70287, y: 19.07922, z: 285.89203}
-    - {x: -178.36847, y: 17.554592, z: 285.01474}
-    - {x: -178.34679, y: 17.608011, z: 285.8463}
+    - {x: -253.05754, y: 12.035728, z: 301.2612}
+    - {x: -253.0545, y: 11.33755, z: 301.49677}
+    - {x: -253.22934, y: 12.258524, z: 301.1292}
+    - {x: -252.90173, y: 12.28148, z: 301.1473}
+    - {x: -253.60689, y: 10.941609, z: 301.05823}
+    - {x: -252.48878, y: 10.962929, z: 301.03662}
+    - {x: -252.82222, y: 12.105024, z: 301.49802}
+    - {x: -253.49805, y: 12.438174, z: 301.5221}
+    - {x: -252.61452, y: 10.917941, z: 301.86008}
+    - {x: -253.44621, y: 10.968542, z: 301.8838}
     computedTargetVelocities:
     - {x: 0, y: 0, z: 0}
     - {x: 0, y: 0, z: 0}
@@ -138,18 +138,18 @@ MonoBehaviour:
     - {x: 0, y: 0, z: 0}
     - {x: 0, y: 0, z: 0}
     computedTargetRotations:
-    - {x: 0.20278682, y: 0.6751241, z: -0.20486414, w: 0.6791159}
-    - {x: -0.06677503, y: 0.7039828, z: 0.06676908, w: 0.7039829}
-    - {x: -0.56355363, y: 0.52498484, z: 0.5905942, w: 0.24094585}
-    - {x: -0.38541204, y: 0.3766878, z: 0.69461304, w: 0.476549}
-    - {x: 0.7064869, y: -0.031110106, z: -0.6695085, w: 0.22774798}
-    - {x: 0.6874124, y: 0.1658088, z: -0.6874339, w: 0.16582197}
-    - {x: 0, y: 0.70712143, z: 0, w: 0.7071236}
-    - {x: 0, y: 0.70710576, z: 0, w: 0.7071079}
-    - {x: 0, y: 0.7071186, z: 0, w: 0.7071207}
-    - {x: 0, y: 0.7071243, z: 0, w: 0.70712644}
+    - {x: 0.2863793, y: -0.0010322103, z: -0.00017773794, w: 0.9581589}
+    - {x: -0.09637905, y: 0.0011754461, z: 0.0018631105, w: 0.99539274}
+    - {x: -0.81748796, y: 0.20018527, z: 0.020772746, w: 0.53969043}
+    - {x: -0.7644533, y: -0.070706524, z: 0.2208583, w: 0.6015444}
+    - {x: 0.9730543, y: -0.18110041, z: 0.025438845, w: 0.14114937}
+    - {x: 0.97169966, y: 0.0020056497, z: -0.000914377, w: 0.23640102}
+    - {x: -0.0019582047, y: 0.0013450532, z: 0.0017479298, w: 1.0000178}
+    - {x: -0.0019581614, y: 0.0013450234, z: 0.0017478911, w: 0.99999565}
+    - {x: -0.0019581967, y: 0.0013450478, z: 0.0017479227, w: 1.0000137}
+    - {x: -0.0019582128, y: 0.0013450587, z: 0.0017479369, w: 1.0000218}
   editSelection: 0
-  animProgress: 49.52392
+  animProgress: 79.864334
   previewCharacter: {fileID: 8345595452543881516, guid: 8e773d795453a8e4f897558e6f610e4d,
     type: 3}
   linkedStations:
@@ -250,7 +250,7 @@ SpringJoint:
   m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -178.651, y: 18.062607, z: 287.198}
+  m_ConnectedAnchor: {x: -254.80031, y: 11.417221, z: 301.58145}
   serializedVersion: 2
   m_Spring: 2000
   m_Damper: 20
@@ -292,7 +292,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5189653907412075780
 Transform:
   m_ObjectHideFlags: 0
@@ -420,7 +420,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3743357838710475507
 Transform:
   m_ObjectHideFlags: 0
@@ -580,6 +580,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: -6733177361254619370, guid: cdc3875707473004989d52b4b6b17298,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -6527948707456970028, guid: cdc3875707473004989d52b4b6b17298,
         type: 3}
       propertyPath: m_RootOrder
@@ -589,6 +594,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -5568371526223589888, guid: cdc3875707473004989d52b4b6b17298,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -4683669308469848369, guid: cdc3875707473004989d52b4b6b17298,
         type: 3}
@@ -720,6 +730,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 8416272007918961125, guid: cdc3875707473004989d52b4b6b17298,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cdc3875707473004989d52b4b6b17298, type: 3}
 --- !u!4 &468751610933944351 stripped
@@ -769,7 +784,7 @@ BoxCollider:
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!95 &4377856060180391589
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -786,7 +801,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!114 &3473630937541108734
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -831,7 +846,7 @@ MonoBehaviour:
   observableSearch: 2
   ObservedComponents:
   - {fileID: 3473630937541108734}
-  - {fileID: 0}
+  - {fileID: 8973783026042791390}
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
