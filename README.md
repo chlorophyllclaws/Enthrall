@@ -8,8 +8,7 @@ KoboldKare is made out of many parts, and each part may or may not be licensed t
 Please read [LICENSE](LICENSE) to ensure you have license to do what you want with desired assets.
 
 KK-Enthrall:
-This mod is licensed under the [FIL license](https://raw.githubusercontent.com/chlorophyllclaws/definitely-one-of-the-licenses/refs/heads/master/fuck-it-license.md)
-
+This mod is licensed under the [WTFPL](http://www.wtfpl.net/). Do note that this does not include any characters, species, or IP herein contained.
 ## Contributing
 
 Not yet.
