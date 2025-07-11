@@ -221,7 +221,6 @@ MonoBehaviour:
   - {fileID: 8841620206460298059}
   - {fileID: 4102903050070834683}
   - {fileID: 4971669995362533252}
-  splineTension: 0.5
   listeners:
   - rid: 0
   - rid: 1
@@ -230,6 +229,7 @@ MonoBehaviour:
   - rid: 4
   - rid: 5
   - rid: 6
+  actualHoleStartT: 0
   references:
     version: 2
     RefIds:
